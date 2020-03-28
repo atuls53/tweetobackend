@@ -34,7 +34,7 @@ PyJWT==1.6.4
 pyOpenSSL==18.0.0
 PySocks==1.6.8
 pytz==2018.5
-requests==2.19.1
+requests==2.20.0
 requests-oauthlib==1.0.0
 service-identity==17.0.0
 six==1.11.0
