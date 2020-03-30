@@ -136,7 +136,7 @@ STATIC_URL = '/static/'
 
 
 CORS_ORIGIN_WHITELIST = (
-    'https://tweetopedia.herokuapp.com'
+    'https://tweetopedia.herokuapp.com',
     'localhost:4200',
 )
 
