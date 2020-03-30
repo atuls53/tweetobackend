@@ -2,7 +2,7 @@ from rest_framework import status
 from django.http import HttpResponse, JsonResponse
 from rest_framework.decorators import api_view
 from api.bin.twitter import TWITTER_API
-from api.bin.instagram import INSTAGRAM_API
+# from api.bin.instagram import INSTAGRAM_API
 
 @api_view(['POST'])
 def search(request): 
@@ -22,12 +22,12 @@ def search(request):
     return JsonResponse(tweets)
 
 @api_view(['GET'])
-def insta(request): 
-    """
+# def insta(request): 
+#     """
        
-    """
+#     """
     
-    instaapi = INSTAGRAM_API()
-    instares=instaapi.tagSearch()
-    return JsonResponse(instares)
+#     instaapi = INSTAGRAM_API()
+#     instares=instaapi.tagSearch()
+#     return JsonResponse(instares)
 
