@@ -21,7 +21,7 @@ def search(request):
     tweets=twitterapi.search_tweets(request.data)
     return JsonResponse(tweets)
 
-@api_view(['GET'])
+# @api_view(['GET'])
 # def insta(request): 
 #     """
        
