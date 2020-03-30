@@ -9,4 +9,4 @@ class INSTAGRAM_API:
     def tagSearch(self):
         user, next_ = self.api.user_search("india", 10, "28.7041", "77.1025", "1539993600", "1540357631")
         for us in user:
-            print media.caption.text
+            print(media.caption.text)
