@@ -25,7 +25,7 @@ import django_eventstream
 urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^search/$', views.search),
-    url(r'^insta/', views.insta),
+    # url(r'^insta/', views.insta),
     url(r'^events/', include(django_eventstream.urls))
     # url(r'^search/(?P<q>[a-zA-Z0-9]+)/(?P<sinceId>[0-9]+)/(?P<maxId>[0-9]+)/$', views.search)
 ]
