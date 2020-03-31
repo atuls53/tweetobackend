@@ -137,11 +137,11 @@ STATIC_URL = '/static/'
 
 CORS_ORIGIN_WHITELIST = (
     'https://tweetopedia.herokuapp.com',
-    'localhost:4200',
+    'localhost:4200',0
 )
 
-# CORS_ORIGIN_ALLOW_ALL = True
-EVENTSTREAM_ALLOW_ORIGIN = 'http://localhost:4200'
+CORS_ORIGIN_ALLOW_ALL = True
+EVENTSTREAM_ALLOW_ORIGIN = 'https://tweetopedia.herokuapp.com'
 
 ASGI_APPLICATION = 'tweetapp.routing.application'
 
