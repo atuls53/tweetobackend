@@ -15,7 +15,7 @@ Django==2.1
 django-cors-headers==2.4.0
 django-eventstream==2.2.0
 django-grip==1.8.0
-djangorestframework==3.8.2
+djangorestframework==3.11.2
 gripcontrol==3.2.1
 h2==3.0.1
 hpack==3.0.0
